@@ -41,7 +41,7 @@ const Hero = () => {
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Thiago Camargo</Typography>
-                            <Typography color="primary.contrastText" variant="h4" textAlign="center" >Transformo seus sonhos em código</Typography>
+                            <Typography color="primary.contrastText" variant="h4" textAlign="center" >I turn your dreams into code</Typography>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                                     <StyledButton>
