@@ -1,6 +1,6 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material"
 
-const About = () => {
+const Projects = () => {
     const StyledHero = styled("div")(({ theme }) => ({
         backgroundColor: theme.palette.primary.main,
         height: "100vh",
@@ -29,8 +29,8 @@ const About = () => {
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={12}>
-                            <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={4}>About me</Typography>
-                            <Typography color="primary.contrastText" variant="h4" textAlign="center" style={{ wordWrap: 'break-word', whiteSpace: 'normal' }}> I'm a Front-End Developer, studying software engineering and I'm passionate about innovation and problem-solving. I have skills mainly in web and mobile development. I have experience with real-world projects and skills acquired through them, and my goal is to handle challenges well, constantly learning and delivering great results. If you're looking for someone who's hard-working and eager to learn, let's connect and achieve great results together!</Typography>
+                            <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={12}>Projects</Typography>
+                            <Typography color="primary.contrastText" variant="h4" textAlign="center" ></Typography>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={12} display="flex" justifyContent="center">
                                 </Grid>
@@ -43,4 +43,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Projects
