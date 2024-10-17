@@ -1,9 +1,14 @@
 import Home from "./containers/Home/home"
 
-const app= () => {
-    return(
-        <>
-        <Home/>
-        </>
-    )
+
+const App = () => {
+
+
+  return (
+    <>
+      <Home />
+    </>
+  )
 }
+
+export default App
