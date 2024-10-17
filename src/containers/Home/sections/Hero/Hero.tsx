@@ -37,7 +37,7 @@ const Hero = () => {
                             <Typography color="primary.contrastText" variant="h4" textAlign="center" >I turn your dreams into code</Typography>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={2} display="flex" justifyContent="center">
-                                    <StyledButton>
+                                    <StyledButton onClick={() => { window.open("LINK");}}>
                                         <DownloadIcon />
                                         <Typography>
                                             Download CV
@@ -45,7 +45,7 @@ const Hero = () => {
                                     </StyledButton>
                                 </Grid>
                                 <Grid item xs={12} md={2} display="flex" justifyContent="center">
-                                    <StyledButton>
+                                    <StyledButton onClick={() => { window.open("https://wa.me/5551994243982");}}>
                                         <MailOutlineIcon />
                                         <Typography>
                                             Contact me

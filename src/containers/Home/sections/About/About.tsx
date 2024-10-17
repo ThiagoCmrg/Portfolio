@@ -30,7 +30,7 @@ const About = () => {
                         </Grid>
                         <Grid item xs={12} md={12}>
                             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={4}>About me</Typography>
-                            <Typography color="primary.contrastText" variant="h4" textAlign="center" style={{ wordWrap: 'break-word', whiteSpace: 'normal' }}> I'm a Front-End Developer, studying software engineering and I'm passionate about innovation and problem-solving. I have skills mainly in web and mobile development. I have experience with real-world projects and skills acquired through them, and my goal is to handle challenges well, constantly learning and delivering great results. If you're looking for someone who's hard-working and eager to learn, let's connect and achieve great results together!</Typography>
+                            <Typography color="primary.contrastText" variant="h4" textAlign="center" style={{ wordWrap: 'break-word', whiteSpace: 'normal' }}> I'm a Front-End Developer, studying software engineering. I'm passionate about innovation and problem-solving. I have skills mainly in web and mobile development. I have experience with real-world projects and skills acquired through them, and my goal is to handle challenges well, constantly learning and delivering great results. If you're looking for someone who's hard-working and eager to learn, let's connect and achieve great results together!</Typography>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={12} display="flex" justifyContent="center">
                                 </Grid>
