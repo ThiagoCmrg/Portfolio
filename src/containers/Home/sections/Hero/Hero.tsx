@@ -33,8 +33,8 @@ const Hero = () => {
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={12}>
-                            <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Thiago Camargo</Typography>
-                            <Typography color="primary.contrastText" variant="h4" textAlign="center" >I transform your dreams into code</Typography>
+                            <Typography color="black" variant="h1" textAlign="center" pb={2}>Thiago Camargo</Typography>
+                            <Typography color="black" variant="h4" textAlign="center" >I transform your dreams into code</Typography>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={2} display="flex" justifyContent="center">
                                     <StyledButton onClick={() => { window.open("https://www.linkedin.com/in/thiago-camargo-062576300/");}}>

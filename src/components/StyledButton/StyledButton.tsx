@@ -8,11 +8,11 @@ interface StyledButtonProps {
 
 const CustomStyledButton = styled("button")(({ theme }) => ({
   backgroundColor: "transparent",
-  border: `1px solid ${theme.palette.primary.contrastText}`,
+  border: `1px solid ${"black"}`,
   borderRadius: "10px",
   padding: "5px 15px",
   width: "100%",
-  color: theme.palette.primary.contrastText,
+  color: "black",
   display: "inline-flex",
   alignItems: "center",
   justifyContent: "center",

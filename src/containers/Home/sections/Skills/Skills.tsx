@@ -29,8 +29,8 @@ const Projects = () => {
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={12}>
-                            <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={12}>Skills</Typography>
-                            <Typography color="primary.contrastText" variant="h4" textAlign="center" ></Typography>
+                            <Typography color="black" variant="h1" textAlign="center" pb={12}>Skills</Typography>
+                            <Typography color="black" variant="h4" textAlign="center" ></Typography>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={12} display="flex" justifyContent="center">
                                 </Grid>
