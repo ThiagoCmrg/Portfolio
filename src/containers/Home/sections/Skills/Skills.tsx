@@ -1,50 +1,46 @@
-import React from 'react';
-import { Container, Typography, Box } from '@mui/material';
-import SkillCard from "../../../../components/SkillCard/SkillCard";
+import { Box, Container, Grid, Typography, styled } from "@mui/material"
 
-import htmlIcon from "../../../../assets/html.png";
-import cssIcon from "../../../../assets/css.png";
-import jsIcon from "../../../../assets/javascript.png";
-import reactIcon from "../../../../assets/react.png";
-import javaIcon from "../../../../assets/java.png";
-import githubIcon from "../../../../assets/git.png";
+const Projects = () => {
+    const StyledHero = styled("div")(({ theme }) => ({
+        backgroundColor: theme.palette.primary.main,
+        height: "100vh",
+        display: "flex",
+        alignItems: "center",
+        [theme.breakpoints.up('xs')]: {
+            paddingTop: "100px",
 
-const skills = [
-  { icon: htmlIcon, skillName: 'HTML', progress: 60 },
-  { icon: cssIcon, skillName: 'CSS', progress: 50 },
-  { icon: jsIcon, skillName: 'JavaScript', progress: 30 },
-  { icon: reactIcon, skillName: 'React', progress: 45 },
-  { icon: javaIcon, skillName: 'Java', progress: 40 },
-  { icon: githubIcon, skillName: 'Git/Github', progress: 55 },
-];
+        },
+        [theme.breakpoints.up('md')]: {
+            paddingTop: "0",
+        }
+    }))
 
-const Skills: React.FC = () => {
-  return (
-    <Container
-      style={{
-        backgroundColor: '#232323',
-        minHeight: '100vh',
-        padding: '20px',
-        maxWidth: '100%',
-        margin: 0,  
-      }}
-      disableGutters 
-    >
-      <Typography variant="h1" color="white" textAlign="center" pb={12}>
-        Skills
-      </Typography>
-      <Box display="grid" gridTemplateColumns="repeat(auto-fill, minmax(300px, 1fr))" gap={8}>
-        {skills.map((skill) => (
-          <SkillCard
-            key={skill.skillName}
-            icon={skill.icon}
-            skillName={skill.skillName}
-            progress={skill.progress}
-          />
-        ))}
-      </Box>
-    </Container>
-  );
-};
+    return (
+        <>
+            <StyledHero>
+                <Container maxWidth="lg">
+                    <Grid container spacing={2}>
+                        <Grid item xs={12} md={5}>
+                            <Box position="relative">
+                                <Box position="absolute" width={"150%"} top={-100} right={0}>
+                                </Box>
+                                <Box position="relative" textAlign="center">
+                                </Box>
+                            </Box>
+                        </Grid>
+                        <Grid item xs={12} md={12}>
+                            <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={12}>Skills</Typography>
+                            <Typography color="primary.contrastText" variant="h4" textAlign="center" ></Typography>
+                            <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
+                                <Grid item xs={12} md={12} display="flex" justifyContent="center">
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </StyledHero>
+        </>
+    )
+}
 
-export default Skills;
+export default Projects

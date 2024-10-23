@@ -45,7 +45,7 @@ const Hero = () => {
                                     </StyledButton>
                                 </Grid>
                                 <Grid item xs={12} md={2} display="flex" justifyContent="center">
-                                    <StyledButton onClick={() => { window.open("https://wa.me/5551994243982");}}>
+                                    <StyledButton onClick={() => { window.open("mailto:thiagosantoscamargo@hotmail.com");}}>
                                         <MailOutlineIcon />
                                         <Typography>
                                             Contact me
