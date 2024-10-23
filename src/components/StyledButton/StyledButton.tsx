@@ -9,7 +9,7 @@ interface StyledButtonProps {
 const CustomStyledButton = styled("button")(({ theme }) => ({
   backgroundColor: "transparent",
   border: `1px solid ${theme.palette.primary.contrastText}`,
-  borderRadius: "3px",
+  borderRadius: "10px",
   padding: "5px 15px",
   width: "100%",
   color: theme.palette.primary.contrastText,
